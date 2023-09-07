@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/stylesheet.css">
-    <title>Document</title>
+    <title>Bebiditas!!</title>
     
     <script src="./js/main.js"></script>
 </head>
 <body>
+    <h1>Que rica cola SHOP</h1>
+    
+    <div class="producto">
+        <h2>Coca cola</h2>
+        <p>Price: $1400</p>
+        <button onclick="addToCart('Coca Cola', 1400)">Add to Cart</button>
+        
+    </div>
+
+    <div class="producto">
+        <h2>Inca cola</h2>
+        <p>Price: $1500</p>
+        <button onclick="addToCart('Inca Cola', 1500)">Add to Cart</button>
+    </div>
+
+    <div id="carro">
+        <h2>Carrito</h2>
+        <ul id="cart-items">
+            
+        </ul>
+        <p>Total: $<span id="cart-total">0</span></p>
+    </div>
+
     
 </body>
  <script src="./js/main.js">
