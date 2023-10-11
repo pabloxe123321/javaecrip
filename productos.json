@@ -1,0 +1,35 @@
+[
+    {
+        "producto": "Coca cola", 
+        "precio": 1400,
+        "imagen":"./img/coca.jpg"
+    },
+    {
+        "producto": "Inca cola",
+        "precio": 1500,
+        "imagen":"./img/inca.jpg"
+    },
+    { 
+        "producto": "Sprite",
+         "precio": 1500,
+        "imagen":"./img/sprite.jpg"
+    },
+    {
+        "producto": "Fanta",
+        "precio": 1400,
+        "imagen":"./img/fanta.jpg"
+    },
+    {
+        "producto": "Bilz",
+        "precio": 1500,
+        "imagen":"./img/bilz.png"
+    },
+    {
+        "producto": "Pap",
+        "precio": 1400,
+        "imagen":"./img/pap.png"
+    }
+
+    
+
+]

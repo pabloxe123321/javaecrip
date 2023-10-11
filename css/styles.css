@@ -1,0 +1,167 @@
+body {
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin-bottom: 5px;
+}
+
+
+.card {
+    background-color: #f7f7f7;
+    border: none;
+    
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+
+#cart-total {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#limpiarcarrito {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+#limpiarcarrito:hover {
+    background-color: #c82333;
+}
+
+#finalizar-compra {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+
+}
+
+#finalizar-compra:hover {
+    background-color: #218838;
+}
+.card-img-top {
+    max-width: 100%;
+    height: 100px;
+    size: 100px;
+}
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.product-image {
+    max-width: 100%;
+    max-height: 100px; 
+    height: 100px;
+}
+
+.product-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.product-button img {
+    max-width: 200px;  
+    height: 200px;
+    margin-bottom: 0px;
+    transition: transform 0.2s ease-in-out; 
+}
+#productos{
+    display: flex;
+    flex-direction: row;
+    ;
+}
+.product{
+    size: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 0px 10px;
+}
+.product img{
+    width: 200px;
+    height: 200px;
+}
+
+.product button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.product button:hover {
+    background-color: #0056b3; 
+    color: #fff;
+    padding: 11px 21px;
+    font-size: 16px; 
+}
+.product button:active {
+    background-color: #003c80; 
+}
+.product button:disabled {
+    background-color: #ccc; 
+    color: #666;
+    cursor: not-allowed;
+}
+.list-group li button{
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 5px;
+    font-size: 10px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.list-group li button:hover{
+    background-color: #003c80;
+    font-size: 10px;
+}
+.list-group li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
